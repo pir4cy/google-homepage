@@ -20,6 +20,12 @@ body{
     height: 20px;
 }
 
+.menu:hover{
+    border-radius: 500px;
+    border-color:gray;
+    border-width: 2px;
+    border-style: solid;
+}
 .logo {
     text-align: center;
     margin-top: 150px;
@@ -58,7 +64,6 @@ form{
     display: inline;
 }
 
-/*
 .voiceInput{
     position: relative;
     right: 35px;
@@ -66,7 +71,8 @@ form{
     margin-right: 20px;
     margin-top: 10px;
     display: inline;
-} */
+}
+
 .searchButton{
     padding-top: 20px;
     color: #5f6368;
