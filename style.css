@@ -1,0 +1,114 @@
+body{
+    font-size: 13px;
+}
+
+.topNav{
+    text-align: right;
+    margin-top: 15px;
+    margin-right: 30px;
+}
+
+.topNav a{
+    padding: 20px;
+}
+
+.dropdown{
+    float: right;
+}
+.menu {
+    width: 20px;
+    height: 20px;
+}
+
+.logo {
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 30px;
+}
+
+.search{
+    margin:0 auto;
+    display: inline;
+}
+
+form{
+    text-align: center;
+    width: 0 auto;
+}
+
+.searchBar{
+    border-radius: 20px;
+    border: 1px solid #e3e3e3;
+    width: 550px;
+    height: 42px;
+    text-align: left;
+    padding-left: 45px;
+    outline: none;
+}
+
+.searchBar:hover {
+    border: 0.2px solid #999;
+    border-radius: 20px;
+}
+
+.searchIcon{
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 10px;
+    display: inline;
+}
+
+/*
+.voiceInput{
+    position: relative;
+    right: 35px;
+    bottom: 3px;
+    margin-right: 20px;
+    margin-top: 10px;
+    display: inline;
+} */
+.searchButton{
+    padding-top: 20px;
+    color: #5f6368;
+}
+
+.searchButton button:hover { 
+    background-color: whitesmoke;
+    border-style: solid;
+    border-color: lightgrey;
+    color: #5f6368;
+    text-decoration: none;
+    box-shadow:black;
+}
+
+.footer {
+    background-color: #f2f2f2;
+    bottom: 0;
+    display: block;
+    position: fixed;
+    width: 100%;
+    padding: 10px;
+}
+  
+.footer a{
+    margin-left: 30px;
+    color: #5f6368;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    color: #5f6368;
+    text-decoration: underline;
+}
+
+#footLeft{
+    float: left;
+    display: inline-block;
+  
+}
+  
+#footRight{
+    float: right;
+    margin-right: 30px;
+    display: inline-block;
+}
